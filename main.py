@@ -28,7 +28,7 @@ def gui():
     entry_files = tk.Text(root, fg="white", bg="#333333", width=50, height=10)
     entry_files.pack()
 
-    button_browse = tk.Button(root, text="Обзор", command=browse_files, bg="#555555", fg="white")
+    button_browse = tk.Button(root, text="Browse", command=browse_files, bg="#555555", fg="white")
     button_browse.pack()
 
     button_action = tk.Button(root, text="Depersonalize data", command=perform_action, bg="#555555", fg="white")
